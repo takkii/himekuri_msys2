@@ -1,13 +1,11 @@
 #include "all.h"
 
-using namespace std;
-
 int main()
 {
-    time_t now = std::time(nullptr);
+    time_t now = time(nullptr);
     const tm* nowlt = localtime(&now);
 
-    std::stringstream s;
+    stringstream s;
     s<<"20";
     s<<nowlt->tm_year-100;
     s<<"年";
@@ -22,7 +20,7 @@ int main()
     s<<nowlt->tm_sec;
     s<<"秒";
 
-    std::string result = s.str();
+    string result = s.str();
 
     string n = "\n";
     string number = "日めくり数え番号 : ";
