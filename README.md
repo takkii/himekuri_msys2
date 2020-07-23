@@ -11,7 +11,7 @@ _日付表示項目は少なめです_
 日めくり数え番号 : 1.0.0
 ```
 
-[Qt_config](https://github.com/takkii/Qt_config)、初期値ではC++を実行するとTerminalが起動するのを、iTerm2が起動するように置き換えたファイルです。読み込み設定例もレポジトリに書いてあります。個人的にTerminalは使わないので、そのためのファイルでもあります。
+[Qt_config](https://github.com/takkii/Qt_config)、QtCreatorの初期設定でC++を実行するとTerminalが起動します。個人的に、Terminalは使わないのでiTerm2に置き換えたいと呼び出し部分を変更しました。ソースのライセンスがGPLv3だったのでそのままにしています。影響範囲が少ない変更なので、iTerm2でより使いやすくなっています。
 
 #### 実行方法
 
