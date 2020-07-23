@@ -6,53 +6,53 @@ int main(void)
     const tm* nowlt = localtime(&now);
 
     stringstream x;
-    x<<"R0";
+    x<<u8"R0";
     x<<nowlt->tm_year-118;
-    x<<".";
+    x<<u8".";
     x<<nowlt->tm_mon+1;
-    x<<".";
+    x<<u8".";
     x<<nowlt->tm_mday;
 
     string result_r = x.str();
 
     stringstream y;
-    y<<"令和";
+    y<<u8"令和";
     y<<nowlt->tm_year-118;
-    y<<"年";
+    y<<u8"年";
     y<<nowlt->tm_mon+1;
-    y<<"月";
+    y<<u8"月";
     y<<nowlt->tm_mday;
-    y<<"日";
+    y<<u8"日";
 
     string result_reiwa = y.str();
 
 
     stringstream z;
-    z<<"20";
+    z<<u8"20";
     z<<nowlt->tm_year-100;
-    z<<"年";
+    z<<u8"年";
     z<<nowlt->tm_mon+1;
-    z<<"月";
+    z<<u8"月";
     z<<nowlt->tm_mday;
-    z<<"日：";
+    z<<u8"日：";
     z<<nowlt->tm_hour;
-    z<<"時";
+    z<<u8"時";
     z<<nowlt->tm_min;
-    z<<"分";
+    z<<u8"分";
     z<<nowlt->tm_sec;
-    z<<"秒";
+    z<<u8"秒";
 
     string result = z.str();
 
     int redays = nowlt->tm_yday;
     int redays_mini = 365-redays;
 
-    string tim = "時刻を表示:";
-    string gantan = "来年の1月1日まであと: ";
-    string aisatu = " 日です";
-    string number = "日めくり数え番号 : ";
-    string version = "1.0.0";
-    string comma = " : ";
+    string tim = u8"時刻を表示:";
+    string gantan = u8"来年の1月1日まであと: ";
+    string aisatu = u8" 日です";
+    string number = u8"日めくり数え番号 : ";
+    string version = u8"1.0.0";
+    string comma = u8" : ";
 
     string himekuri = number + version;
 
