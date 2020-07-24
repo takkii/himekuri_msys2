@@ -16,7 +16,11 @@
 #### 実行方法
 
 ```markdown
+標準
 g++ -g main.cpp -o himekuri
+
+C++17使用
+g++ -g main.cpp -o himekuri -std=gnu++17
 
 ./himekuri
 ```
