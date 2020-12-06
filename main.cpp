@@ -34,7 +34,7 @@ int main(void)
     z<<nowlt->tm_mon+1;
     z<<"月";
     z<<nowlt->tm_mday;
-    z<<"日：";
+    z<<"日" << " : ";
     z<<nowlt->tm_hour;
     z<<"時";
     z<<nowlt->tm_min;
@@ -47,7 +47,7 @@ int main(void)
     int redays = nowlt->tm_yday;
     int redays_mini = 365-redays;
 
-    string tim = "時刻を表示:";
+    string tim = "時刻を表示 : ";
     string gantan = "来年の1月1日まであと: ";
     string aisatu = " 日です";
     string number = "日めくり数え番号 : ";
