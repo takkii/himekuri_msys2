@@ -16,13 +16,13 @@ int main(void)
     string result_r = x.str();
 
     stringstream y;
-    y<<"ä»¤å’Œ";
+    y<<"—ß˜a";
     y<<nowlt->tm_year-118;
-    y<<"å¹´";
+    y<<"”N";
     y<<nowlt->tm_mon+1;
-    y<<"æœˆ";
+    y<<"Œ";
     y<<nowlt->tm_mday;
-    y<<"æ—¥";
+    y<<"“ú";
 
     string result_reiwa = y.str();
 
@@ -30,27 +30,27 @@ int main(void)
     stringstream z;
     z<<"20";
     z<<nowlt->tm_year-100;
-    z<<"å¹´";
+    z<<"”N";
     z<<nowlt->tm_mon+1;
-    z<<"æœˆ";
+    z<<"Œ";
     z<<nowlt->tm_mday;
-    z<<"æ—¥" << " : ";
+    z<<"“ú" << " : ";
     z<<nowlt->tm_hour;
-    z<<"æ™‚";
+    z<<"";
     z<<nowlt->tm_min;
-    z<<"åˆ†";
+    z<<"•ª";
     z<<nowlt->tm_sec;
-    z<<"ç§’";
+    z<<"•b";
 
     string result = z.str();
 
     int redays = nowlt->tm_yday;
     int redays_mini = 365-redays;
 
-    string tim = "æ™‚åˆ»ã‚’è¡¨ç¤º : ";
-    string gantan = "æ¥å¹´ã®1æœˆ1æ—¥ã¾ã§ã‚ã¨: ";
-    string aisatu = " æ—¥ã§ã™";
-    string number = "æ—¥ã‚ãã‚Šæ•°ãˆç•ªå· : ";
+    string tim = "Œ»İ : ";
+    string gantan = "—ˆ”N‚Ì1Œ1“ú‚Ü‚Å‚ ‚Æ : ";
+    string aisatu = " “ú‚Å‚·";
+    string number = "“ú‚ß‚­‚è”‚¦”Ô† : ";
     string version = "1.0.0";
     string comma = " : ";
 
