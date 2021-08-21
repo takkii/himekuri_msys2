@@ -25,3 +25,5 @@ g++ -g main.cpp -o himekuri -std=gnu++17
 
 ./himekuri
 ```
+
+> ※ 現在のバージョンではmsys2-64bitに寄せています。
