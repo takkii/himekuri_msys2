@@ -1,9 +1,12 @@
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)![GitHub release](https://img.shields.io/github/release/takkii/himekuri_c_plusplus.svg?style=flat)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/himekuri_c_plusplus.svg?style=flat)](GitHub)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)![GitHub
+release](https://img.shields.io/github/release/takkii/himekuri_c_plusplus.svg?style=flat)[![GitHub
+Status](https://img.shields.io/github/last-commit/takkii/himekuri_c_plusplus.svg?style=flat)](GitHub)
 
 ### 日めくりのC++版。
 
-| [日めくり(Ruby)](https://github.com/takkii/himekuri) | [日めくり(Java)](https://github.com/takkii/himekuri_java) | [日めくり(C#)](https://github.com/takkii/himekuri_shaper) | [日めくり2(C++)](https://github.com/takkii/himekuri2) | [日めくり(TypeScript)](https://github.com/takkii/himekuri_ts) |
-|:--:|:--:|:--:|:--:|:--:|
+| [日めくり(Ruby)](https://github.com/takkii/himekuri) | [日めくり(Java)](https://github.com/takkii/himekuri_java)
+| [日めくり(C#)](https://github.com/takkii/himekuri_shaper) | [日めくり2(C++)](https://github.com/takkii/himekuri2)
+| [日めくり(TypeScript)](https://github.com/takkii/himekuri_ts) | |:--:|:--:|:--:|:--:|:--:|
 
 ```markdown
 現在時刻 : 2021年8月21日 : 17時48分29秒 : 土曜日 : 葉月
