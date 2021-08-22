@@ -116,8 +116,9 @@ int main(void)
             cout << "Œ»Ý‚Ì C++ : pre-standard C++" << endl;
 
     } catch (runtime_error& e) {
-        cerr << e.what() << endl;
-        throw;
+        cout << "runtime_error : " << e.what() << endl;
+    } catch (exception& e) {
+        cout << "some exception : " << e.what() << endl;
     }
     exit(0);
 }
