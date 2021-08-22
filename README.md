@@ -4,9 +4,7 @@ Status](https://img.shields.io/github/last-commit/takkii/himekuri_c_plusplus.svg
 
 ### 日めくりのC++版。
 
-| [日めくり(Ruby)](https://github.com/takkii/himekuri) | [日めくり(Java)](https://github.com/takkii/himekuri_java)
-| [日めくり(C#)](https://github.com/takkii/himekuri_shaper) | [日めくり2(C++)](https://github.com/takkii/himekuri2)
-| [日めくり(TypeScript)](https://github.com/takkii/himekuri_ts) | 
+| [日めくり(Ruby)](https://github.com/takkii/himekuri) | [日めくり(Java)](https://github.com/takkii/himekuri_java) | [日めくり(C#)](https://github.com/takkii/himekuri_shaper) | [日めくり2(C++)](https://github.com/takkii/himekuri2) | [日めくり(TypeScript)](https://github.com/takkii/himekuri_ts) |
 |:--:|:--:|:--:|:--:|:--:|
 
 ```markdown
