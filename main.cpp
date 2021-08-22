@@ -1,47 +1,46 @@
 #include "all.h"
 
-int main(void)
-{
-    try{
+int main(void) {
+    try {
         time_t now = time(nullptr);
-        const tm* nowlt = localtime(&now);
+        const tm *nowlt = localtime(&now);
 
         stringstream x;
-        x<<"R0";
-        x<<nowlt->tm_year-118;
-        x<<".";
-        x<<nowlt->tm_mon+1;
-        x<<".";
-        x<<nowlt->tm_mday;
+        x << "R0";
+        x << nowlt->tm_year - 118;
+        x << ".";
+        x << nowlt->tm_mon + 1;
+        x << ".";
+        x << nowlt->tm_mday;
 
         string result_r = x.str();
 
         stringstream y;
-        y<<"—ß˜a";
-        y<<nowlt->tm_year-118;
-        y<<"”N";
-        y<<nowlt->tm_mon+1;
-        y<<"ŒŽ";
-        y<<nowlt->tm_mday;
-        y<<"“ú";
+        y << "—ß˜a";
+        y << nowlt->tm_year - 118;
+        y << "”N";
+        y << nowlt->tm_mon + 1;
+        y << "ŒŽ";
+        y << nowlt->tm_mday;
+        y << "“ú";
 
         string result_reiwa = y.str();
 
 
         stringstream z;
-        z<<"20";
-        z<<nowlt->tm_year-100;
-        z<<"”N";
-        z<<nowlt->tm_mon+1;
-        z<<"ŒŽ";
-        z<<nowlt->tm_mday;
-        z<<"“ú" << " : ";
-        z<<nowlt->tm_hour;
-        z<<"Žž";
-        z<<nowlt->tm_min;
-        z<<"•ª";
-        z<<nowlt->tm_sec;
-        z<<"•b";
+        z << "20";
+        z << nowlt->tm_year - 100;
+        z << "”N";
+        z << nowlt->tm_mon + 1;
+        z << "ŒŽ";
+        z << nowlt->tm_mday;
+        z << "“ú" << " : ";
+        z << nowlt->tm_hour;
+        z << "Žž";
+        z << nowlt->tm_min;
+        z << "•ª";
+        z << nowlt->tm_sec;
+        z << "•b";
 
         string result = z.str();
 
@@ -63,7 +62,7 @@ int main(void)
         const char *wday[] = {"“ú", "ŒŽ", "‰Î", "…", "–Ø", "‹à", "“y"};
 
         // Month ˜a•—ŒŽ
-        const char* wmonth[] = { "–rŒŽ", "”@ŒŽ", "–í¶", "‰KŒŽ", "ŽHŒŽ", "…–³ŒŽ", "•¶ŒŽ", "—tŒŽ", "’·ŒŽ", "_–³ŒŽ", "‘šŒŽ", "Žt‘–"
+        const char *wmonth[] = {"–rŒŽ", "”@ŒŽ", "–í¶", "‰KŒŽ", "ŽHŒŽ", "…–³ŒŽ", "•¶ŒŽ", "—tŒŽ", "’·ŒŽ", "_–³ŒŽ", "‘šŒŽ", "Žt‘–"
         };
 
         time(&timer);
@@ -115,9 +114,9 @@ int main(void)
         else
             cout << "Œ»Ý‚Ì C++ : pre-standard C++" << endl;
 
-    } catch (const runtime_error& e) {
+    } catch (const runtime_error &e) {
         cout << "runtime_error : " << e.what() << endl;
-    } catch (const exception& e) {
+    } catch (const exception &e) {
         cout << "some exception : " << e.what() << endl;
     }
     exit(0);
