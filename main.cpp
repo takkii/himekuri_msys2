@@ -49,7 +49,7 @@ int main(void)
         int OneYear_Days = 365;
 
         int redays = nowlt->tm_yday;
-        int redays_mini = OneYear_Days - redays;
+        auto redays_mini = OneYear_Days - redays;
 
         string tim = "Œ»İ";
         string gantan = "—ˆ”N‚Ì1Œ1“ú‚Ü‚Å‚ ‚Æ";
