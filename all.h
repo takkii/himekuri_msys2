@@ -1,8 +1,4 @@
 /*
- *  Copyright © 2020 Takayuki, Kamiyama
- */
-
-/*
  * File:   all.h
  * Author: Takayuki, Kamiyama
  *
@@ -21,7 +17,6 @@
 #include <typeinfo>
 #include <exception>
 #include <initializer_list>
-// #include <cstdalign>
 #include <stdexcept>
 #include <cassert>
 #include <cerrno>
@@ -29,7 +24,9 @@
 #include <string>
 
 #if __has_include(<string_view>)
+
 #include <string_view>
+
 #endif
 
 #include <array>
@@ -60,7 +57,9 @@
 #include <fstream>
 
 #if __has_include(<filesystem>)
+
 #include <filesystem>
+
 #endif
 
 #include <cstdio>
