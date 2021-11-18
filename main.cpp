@@ -42,19 +42,19 @@ int main(void) {
         z << nowlt->tm_sec;
         z << "•b";
 
-        string result = z.str();
+        auto result = z.str();
 
         // OneYear ¨ 365 days.
-        int OneYear_Days = 365;
+        auto OneYear_Days = 365;
 
-        int redays = nowlt->tm_yday;
+        auto redays = nowlt->tm_yday;
         auto redays_mini = OneYear_Days - redays;
 
-        string tim = "Œ»İ";
-        string gantan = "—ˆ”N‚Ì1Œ1“ú‚Ü‚Å‚ ‚Æ";
-        string aisatu = " “ú‚Å‚·";
-        string number = "“ú‚ß‚­‚è”‚¦”Ô†";
-        string week = "—j“ú";
+        auto tim = "Œ»İ";
+        auto gantan = "—ˆ”N‚Ì1Œ1“ú‚Ü‚Å‚ ‚Æ";
+        auto aisatu = " “ú‚Å‚·";
+        auto number = "“ú‚ß‚­‚è”‚¦”Ô†";
+        auto week = "—j“ú";
 
         // week Sun ~ Sat
         time_t timer;
@@ -74,14 +74,14 @@ int main(void) {
         // version number
         ss << 1;
         ssd << 2;
-        string str_num = ss.str();
-        string str_dd = ssd.str();
+        auto str_num = ss.str();
+        auto str_dd = ssd.str();
         string comma = " : ";
 
         // version number comma
-        string number_comma = ".1.";
+        auto number_comma = ".1.";
 
-        string himekuri = number + comma + str_num + number_comma + str_dd;
+        auto himekuri = number + comma + str_num + number_comma + str_dd;
 
         cout << tim << comma << result << comma << wday[t_st->tm_wday] << week << comma << wmonth[t_st->tm_mon] << endl;
         cout << gantan << comma << redays_mini << aisatu << endl;
@@ -89,12 +89,12 @@ int main(void) {
         cout << himekuri << endl;
 
         // C++ version info.
-        long cpp20 = 202002L;
-        long cpp17 = 201703L;
-        long cpp17_2 = 201709L;
-        long cpp14 = 201402L;
-        long cpp11 = 201103L;
-        long cpp98 = 199711L;
+        auto cpp20 = 202002L;
+        auto cpp17 = 201703L;
+        auto cpp17_2 = 201709L;
+        auto cpp14 = 201402L;
+        auto cpp11 = 201103L;
+        auto cpp98 = 199711L;
 
         // long type ¨ string type.
         string cpp_ver = to_string(__cplusplus);
